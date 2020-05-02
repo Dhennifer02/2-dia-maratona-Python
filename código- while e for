@@ -1,0 +1,57 @@
+# LAÇOS DE REPETIÇÃO
+
+# POR E QUANDO
+
+# FOR = PARA
+# WHILE = ENQUANTO
+# SINTAXE
+
+# PARA {REFERENCIA} EM {SEQUENCIA}:
+
+# {BLOCO A SER EXECUTADO}
+
+# WHILE {CONDIÇÃO}
+# {EXECUTAR ALGUMA COISA}
+# quebrar
+OUTROS: {BLOCO DE CODIGO}
+'' '
+cont = 1
+enquanto cont <= 100:
+  print (cont, end = '')
+cont + = 1
+se cont == 100:
+     impressão()
+quebrar
+impressão()
+'' '
+
+'' '
+contador = 0
+somador = 4 
+enquanto contador <5:
+    contador = contador +1
+    valor = float (entrada ('Digite o' + str (contador) + "º valor:"))
+somador = somador + bravura
+print ('Soma é igual a:', somador)
+]
+'' '
+
+soma  =  0
+
+para  i  no  intervalo ( 0 , 20 ):
+ soma  =  soma  + i
+print ( soma )
+
+# exemplo de soma de 0 a 
+ 
+listaNotas  = []
+media  =  0
+
+print ( 'Informe suas 4 notas' )
+
+para  i  na  faixa ( 4 ):
+      listaNotas . append ( float ( entrada ( 'Nota' +  str ( i + 1 ) +  ': \ n ' ))))
+      mídia  + =  listaNotas [ 0 ]
+      mídia =  mídia / 4
+      print ( listaNotas )
+      impressão ( mídia )
