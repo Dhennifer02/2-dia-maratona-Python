@@ -1,0 +1,28 @@
+---
+all:
+  vars:
+    semaphore_user: semaphore
+    ssh_port: 22
+    tftp_server: 192.168.0.1
+    ansible_connection: local
+    local_user: 0
+    var_1: 1
+
+  children:
+    xxx:
+      hosts:
+        bujari:
+          ip_addr: 192.168.0.21
+          local_user: 1
+        camocim:
+          ip_addr: 192.168.0.22
+          local_user: 1
+     
+    mba:
+      hosts:
+        bujari:
+          ip_addr: 192.168.0.31
+          local_user: 1
+        camocim:
+          ip_addr: 192.168.0.41
+          local_user: 1
