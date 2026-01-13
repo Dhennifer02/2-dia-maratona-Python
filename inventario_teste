@@ -29,8 +29,8 @@ all:
 
     pbs:
       hosts:
-        bujari:
-          alemanha: 192.168.0.51
+        alemanha:
+          ip_addr: 192.168.0.51
           local_user: 1
         angola:
           ip_addr: 192.168.0.52
