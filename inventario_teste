@@ -26,6 +26,9 @@ all:
         camocim:
           ip_addr: 192.168.0.41
           local_user: 1
+        router:
+          ip_addr: 1.1.1.0
+          local_user: 1
 
     pbs:
       hosts:
